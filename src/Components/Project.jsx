@@ -1,49 +1,59 @@
 import React from 'react'
-import profile from '../Images/ProfileImage.jpg'
+import P1 from "../Images/p1.avif"
+import P2 from "../Images/p2.avif"
+import P3 from "../Images/p3.avif"
+import P4 from "../Images/p4.avif"
+import P5 from "../Images/p5.avif"
+import { Link } from 'react-router-dom'
+import {BsGithub} from 'react-icons/bs'
 
 const Project = () => {
   return (
-    <div className=' flex flex-col m-[15.5rem]'>
-        <div className=' flex flex-col items-center justify-center mb-20'>
-          <h1> Projects</h1>
-          <p>Projects I've worked on</p>
+    <div className=' flex items-center justify-center'>
+      <div className=' flex gap-5'>
+        <div className=' w-52 h-[21rem] rounded-3xl bg-blue-950 text-white font-medium p-5'>
+          <img src={P1} alt=""  className=' w-52 h-28 rounded'/>
+          <h1 className=' font-bold text-center mb-1'>Weather App</h1>
+          <p>This is an app that tells users the current weather of the city they enter</p>
+          <p> Tech Stach: Html, Css and JavaScript</p>
+          <Link to={"https://oyewaleoyindamola.github.io/weatherApi/"}>
+            <BsGithub className=' font-bold text-2xl text-center'/>
+          </Link>
         </div>
-        <div className=' flex gap-7 mb-10 m-[15.5rem]'>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
+        <div className=' w-52 h-[21rem] rounded-3xl bg-blue-950 text-white font-medium p-5'>
+          <img src={P1} alt=""  className=' w-52 h-28 rounded'/>
+          <h1 className=' font-bold text-center mb-1'>Calculator</h1>
+          <p>This is an app that allows users to perform basic arithmetic calculations.</p>
+          <p> Tech Stach: Html, Css and JavaScript</p>
+          <Link to={" https://oyewaleoyindamola.github.io/calll/"}>
+            <BsGithub className=' font-bold text-2xl text-center'/>
+          </Link>
         </div>
-        <div className=' flex gap-7 m-[15.5rem]'>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
-          <div className=' h-[16rem] w-52 bg-black text-white '> 
-            <img src={profile} alt="" className=' h-32 w-52'/>
-            <h2>hgfjusdhjcdjkb</h2>
-          </div>
+        <div className=' w-52 h-[21rem] rounded-3xl bg-blue-950 text-white font-medium p-5'>
+          <img src={P1} alt=""  className=' w-52 h-28 rounded'/>
+          <h1 className=' font-bold text-center mb-1'>Weather App</h1>
+          <p>This is an app that tells users the current weather of the city they enter</p>
+          <p> Tech Stach: Html, Css and JavaScript</p>
+          <Link to={"https://oyewaleoyindamola.github.io/weatherApi/"}>
+            <BsGithub className=' font-bold text-2xl text-center'/>
+          </Link>
         </div>
+        <div className=' w-52 h-[21rem] rounded-3xl bg-blue-950 text-white font-medium p-5'>
+          <img src={P3} alt=""  className=' w-52 h-28 rounded'/>
+          <h1 className=' font-bold text-center mb-1'>Weather App</h1>
+          <p>This is an app that tells users the current weather of the city they enter</p>
+          <p> Tech Stach: Html, Css and JavaScript</p>
+          <Link to={"https://oyewaleoyindamola.github.io/weatherApi/"}>
+            <BsGithub className=' font-bold text-2xl text-center'/>
+          </Link>
+        </div>
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Profile from '../Images/ProfileImage.jpg'
 const HeadContent = () => {
   return (
     <div id='HeadContent'>
-        <div className=' flex flex-col justify-center items-center mb-28'>
+        <div className=' flex flex-col justify-center items-center '>
             <div className=' flex items-center mb-44 gap-[20rem]'>
                 <div>
                     <h1 className=' font-bold text-4xl  text-blue-950'>Hi  ,</h1>

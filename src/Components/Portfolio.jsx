@@ -1,12 +1,18 @@
 import React from 'react'
-
-import Header from './Header'
-// import Project from './Project'
+import Nav from './Nav'
+import HeadContent from './HeadContent'
+// import TechStack from './TechStack'
+import About from './About'
+import Project from './Project'
 
 const Portfolio = () => {
   return (
     <div>
-        <Header/>
+      <Nav/>
+      <HeadContent/>
+      {/* <TechStack/> */}
+      <Project/>
+      <About/>
     </div>
   )
 }

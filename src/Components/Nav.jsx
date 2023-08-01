@@ -7,19 +7,17 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className=' flex justify-center m-16 mb-96'>
+    <div className=' flex justify-center m-16 mb-32' id='nav'>
         <div className=' flex gap-44'>
             <div className=' text-blue-950 font-bold text-2xl ml-10'>
                 <h1>Wura</h1>
             </div>
             <div className=' flex gap-4 mt-[5px]'>
-                <Link>
-                 
-                </Link>
+
                 <p>Home</p>
                 <p>About</p>
-                <p>Tech Stack</p>
-                <p>Projects</p>
+                <Link to={"/TechStack"}>TechStack</Link>
+                <Link>Projects</Link>
                 <p>Connect</p>
             </div>
             <div className=' flex items-center gap-8'>
