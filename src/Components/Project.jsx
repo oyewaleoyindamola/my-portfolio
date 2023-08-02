@@ -1,6 +1,5 @@
 import React from 'react'
 import P1 from "../Images/p1.avif"
-import P2 from "../Images/p2.avif"
 import P3 from "../Images/p3.avif"
 
 import { Link } from 'react-router-dom'
