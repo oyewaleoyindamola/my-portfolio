@@ -9,10 +9,11 @@ import {SiTailwindcss} from  'react-icons/si'
 import {BsGithub} from 'react-icons/bs'
 import {SiMongodb} from 'react-icons/si'
 import {BsGit} from 'react-icons/bs'
-
+// import Nav from "./Nav"
 const TechStack = () => {
   return (
     <div id="TechStack" className=" mb-20">
+      {/* <Nav/> */}
       <div className=" flex flex-col items-center justify-center">
         <div className=" flex flex-col items-center justify-center mb-10">
           <h2 className=" font-bold text-2xl text-blue-950"> My Tech Stack</h2>

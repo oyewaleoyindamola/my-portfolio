@@ -14,10 +14,10 @@ const Nav = () => {
             </div>
             <div className=' flex gap-4 mt-[5px]'>
 
-                <p>Home</p>
-                <p>About</p>
+                <Link to={"/"}>Home</Link>
+                <Link to={"/About"}> About Me</Link>
                 <Link to={"/TechStack"}>TechStack</Link>
-                <Link>Projects</Link>
+                <Link to={"/Project"}>Project</Link>
                 <p>Connect</p>
             </div>
             <div className=' flex items-center gap-8'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../Images/ProfileImage.jpg'
+import Profile from '../Images/main.jpg'
 
 
 const HeadContent = () => {
