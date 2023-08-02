@@ -4,10 +4,12 @@ import P3 from "../Images/p3.avif"
 
 import { Link } from 'react-router-dom'
 import {BsGithub} from 'react-icons/bs'
+import Nav from './Nav'
 
 const Project = () => {
   return (
-    <div className=' flex items-center justify-center'>
+    <div className=' flex flex-col items-center justify-center'>
+      {/* <Nav/> */}
       <div className=' flex gap-5'>
         <div className=' w-52 h-[21rem] rounded-3xl bg-blue-950 text-white font-medium p-5'>
           <img src={P1} alt=""  className=' w-52 h-28 rounded'/>
